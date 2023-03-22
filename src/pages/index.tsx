@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -38,6 +39,13 @@ export default function Home() {
               />
             </a>
             <h1>Welcome To <Link href="/posts/first-post">Car Listings</Link></h1>
+            <Image src="/images/nissanMicra.jpg"
+                   alt="Nissan Micra Profile Picture"
+                   height={144}
+                   width={144}
+            />
+
+            
           </div>
         </div>
 
